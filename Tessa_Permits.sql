@@ -1,6 +1,7 @@
  -- Duplicates beacuse of regulated activities 
  -- Cannot do inpsctions because it's causing duplicats for ras 
  -- Cannot do field and Dry tons together 
+ 
  SELECT distinct  P.NUM as PERMIT, 
  date(p.EFFECTIVEDATE) as PERMIT_ISSUED_DT,
  PT.desc as PERMIT_TYPE,   
